@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  background-color: #b1c3e2;
+}
+
+p {
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #ffffff;
+  background-color: #333;
+}
+
+h3{
+  color: #ffffff;;
+  background-color: #333;
+  text-align: center;
+  font-size: 18pt;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-style: solid;
+  border-color: white;
+}
+
+#trash1 {
+  float: left;
+  
+}
+
+#trash2 {
+  float: right;
+  
+}
+
+.menubar ul {
+    background-color: #333 !important;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menubar li {
+    float: right;
+}
+
+.menubar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menubar li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(118, 163, 237);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+header {
+    background-color: #125;
+    padding: 20px;
+    color: white;
+    font-size: 35px;
+}
+
+figure {
+ text-align:center;
+}
+
+figcaption {
+ padding: 2em;
+}
+
+iframe{
+ padding: 25px;
+}
